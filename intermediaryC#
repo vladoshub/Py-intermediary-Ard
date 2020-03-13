@@ -103,6 +103,7 @@ namespace ConsoleApp1
                     break;
                     case "E":
                     currentPort.Write(Ops);
+                    Environment.Exit(0);
                     break;
                     case "T":
                     currentPort.Write(Ops);
